@@ -1,0 +1,1 @@
+﻿RegiNova is an AI-powered Policy Intelligence Platform. It provides sovereign intelligence for policy analysis, compliance checking, and document management. The platform uses Groq Llama 3 70B for its neural engine. Key features include OCR, RAG-based search, and automated compliance audits.
