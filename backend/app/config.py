@@ -30,7 +30,15 @@ class Settings(BaseSettings):
     GROQ_MODEL: str = "llama-3.1-8b-instant"
     
     # CORS Configuration
-    CORS_ORIGINS: list = ["http://localhost:3000", "http://localhost:5173", "http://localhost:5174"]
+    CORS_ORIGINS: list = [
+        "http://localhost:3000", 
+        "http://localhost:5173", 
+        "http://localhost:5174",
+        "http://127.0.0.1:3000",
+        "http://127.0.0.1:5173",
+        "http://127.0.0.1:5174",
+        "http://127.0.0.1:8000"
+    ]
     
     # Document Processing
     MAX_UPLOAD_SIZE: int = 50 * 1024 * 1024  # 50MB

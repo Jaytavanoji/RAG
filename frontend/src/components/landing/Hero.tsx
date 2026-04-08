@@ -93,7 +93,7 @@ export default function Hero() {
   };
 
   return (
-    <div ref={heroRef} className="relative h-[250vh] bg-[#09090B]">
+    <div ref={heroRef} className="relative h-[250vh] bg-[#000000]">
       <div
         className={`fixed inset-0 w-full h-screen transition-opacity duration-100 ${
           heroLoaded ? 'opacity-100' : 'opacity-0'
@@ -107,7 +107,7 @@ export default function Hero() {
           willChange: 'transform, opacity, filter',
         }}
       >
-        <div className="absolute inset-0 bg-[#09090B]">
+        <div className="absolute inset-0 bg-[#000000]">
           <div className="absolute inset-0 flex items-center justify-center pt-10">
             <img 
               src="/RegiNova.gif" 
